@@ -1,0 +1,17 @@
+#SSDD
+## Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: DATASET/SSDD/images # dataset root dir
+train: train  # train images (relative to 'path') 128 images
+val: test  # val images (relative to 'path') 128 images
+test:  test # test images (optional)
+
+#HRSID
+#path: D:/WQ/HRSID_JPG/datasets/images # dataset root dir
+#train: D:/WQ/HRSID_JPG/datasets/images/train  # train images (relative to 'path') 128 images
+#val: D:/WQ/HRSID_JPG/datasets/images/val  # val images (relative to 'path') 128 images
+#test:  D:/WQ/HRSID_JPG/datasets/images/test # test images (optional)
+
+# Classes
+nc: 1  # number of classes
+names: ['ship']  # class names
+
