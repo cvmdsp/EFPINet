@@ -2,10 +2,9 @@
 The corresponding paper title for this project is “EFPINet: Enhanced Feature Preservation and Interaction Network for SAR Ship Detection”.
 
 
-# Train your net
+# Train and test your net
 train.py --weights '' --cfg your yaml address --data data/SSDD.yaml --hyp data/hyps/hyp.scratch-low.yaml --name your name --batch-size 16 --workers 0 --cache --epochs 300 --save-period 1
 
-# Train your net
 val.py --data data/SSDD.yaml --weights runs/train/exp/weights/best.pt
 
 # SSDD dataset
