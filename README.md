@@ -3,10 +3,10 @@ The corresponding paper title for this project is “EFPINet: Enhanced Feature P
 
 
 # Train your net
-train.py --weights ' ' --cfg your yaml address --data data/SSDD.yaml --hyp data/hyps/hyp.scratch-low.yaml --name your name --batch-size 16 --workers 0 --cache --epochs 300 --save-period 1
+train.py --weights ' ' --cfg your yaml address --data data/data.yaml --hyp data/hyps/hyp.scratch-low.yaml --name your name --batch-size 16 --workers 0 --cache --epochs 300 --save-period 1
 
 # test your net
-test.py --data data/SSDD.yaml --weights runs/train/exp/weights/best.pt
+test.py --data data/data.yaml --weights runs/train/exp/weights/best.pt
 
 # SSDD dataset
 baidu disk: https://pan.baidu.com/s/1Lpg28ZvMSgNXq00abHMZ5Q
